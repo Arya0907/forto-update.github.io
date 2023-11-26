@@ -1,4 +1,4 @@
-@media (max-width:450px) {
+@media (max-width:650px) {
 
     body{
         font-size: 15px;
@@ -6,7 +6,7 @@
     }
 
     header {
-        width: 412px;
+        width: 100%;
     }
 
     .Burger{
@@ -59,10 +59,12 @@
     }
 
     article{
-        font-size: 30px;
+        font-size: 25px;
         margin: 0;
         text-align: center;
     }
+
+
 
 
     .box-about{
@@ -76,22 +78,28 @@
     .about{
         display: block;
         text-align: center;
-        margin: 10px;
         font-size: 20px;
         width: 400px;
+        margin: 0px 100px;
+    }
+
+    .atur-bx{
+        margin: 0;
+        padding: 0;
     }
 
     .isi-bx img{
         margin-top: 10px;
-        margin: 0 20%;
+        margin: 0 30%;
         width: 200px;
         height: 200px;
+        padding: 0;
 
     }
 
     .isi-bx {
        display: block;
-       margin: 0;
+       margin: 0px;
        text-align: center;
     }
 
@@ -123,7 +131,8 @@
     }
 
     .kumpulan-project2{
-        display: block;
+       display: flex;
+       justify-content: center;
     }
 
     .card-project{
@@ -131,13 +140,18 @@
         margin-top: 40px;
     }
 
+    .bagian-contact{
+        text-align: center;
+    }
+
     .kotak-contact{
-        margin: 0;
+        margin: auto;
+        text-align: center;
     }
 
     .bx-contact{
         float: none;
-        margin: 0;
+        margin: auto;
     }
 
     .pinggir-contact{
