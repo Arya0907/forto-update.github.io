@@ -1,0 +1,163 @@
+@media (max-width:450px) {
+
+    body{
+        font-size: 15px;
+
+    }
+
+    header {
+        width: 412px;
+    }
+
+    .Burger{
+        display: block;
+        cursor: pointer;
+    }
+    .Burger .line{
+        width: 30px;
+        height: 3px;
+        background: #0B2447;
+        margin: 6px 0;
+    }
+
+    .nav-bar{
+        height: 0;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background-color: white;
+        box-shadow: 0 16px 8px -9px rgba(191,191,191, 1);
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active{
+        height:380px;
+    }
+    .nav-bar ul{
+        display: block;
+        width: fit-content;
+        margin:  50px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+
+    .bagian-home{
+        margin: 0;
+        height: 450px;
+    }
+
+    article{
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .box-about{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: none;
+    }
+
+    .about{
+        display: block;
+        text-align: center;
+        margin: 10px;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    .isi-bx img{
+        margin-top: 10px;
+        margin: 0 20%;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .isi-bx {
+       display: block;
+       margin: 0;
+       text-align: center;
+    }
+
+    .btn-to-bottom{
+        display: none;
+    }
+
+    .kumpulan-card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kumpulan-tools{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-abot img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .kumpulan-tools{
+        display: block;
+    }
+
+    .project-akhir{
+        margin-top: 700px;
+    }
+
+    .kumpulan-project2{
+        display: block;
+    }
+
+    .card-project{
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .kotak-contact{
+        margin: 0;
+    }
+
+    .bx-contact{
+        float: none;
+        margin: 0;
+    }
+
+    .pinggir-contact{
+        float: none;
+    }
+
+    .article{
+        font-size: 10px;
+        width: auto;
+        text-align: center;
+    }
+
+    .kumpulan-sosmed{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+    }
+
+    footer{
+        margin-top: 100px;
+        width: 100%;
+    }
+}
