@@ -176,12 +176,13 @@ article{
 .about {
     color: rgb(0, 0, 0);
     float: right;
-    width: 800px;
+    width: 900px;
     font-size: 23px;
     margin-right: 40px;
 }
 
 .skill{
+    margin-top: 300px;
     margin: 100px 30px;
     border-radius: 30px;
 }
