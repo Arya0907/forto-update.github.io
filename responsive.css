@@ -176,9 +176,9 @@
     }
 }
 
-@media (max-width:430px) {
+@media (max-width:500px) {
     body{
-        font-size: 15px;
+        font-size: 14px;
 
     }
 
@@ -237,7 +237,7 @@
 
     article{
         font-size: 20px;
-        margin: 0;
+        margin: auto;
         text-align: center;
     }
 
@@ -322,16 +322,17 @@
     }
 
     .project-akhir{
-        margin-top: 700px;
+        margin-top: 750px;
     }
 
     .kumpulan-project2{
        display: flex;
        justify-content: center;
+       flex-direction: column;
     }
 
     .card-project{
-        width: 300px;
+        width: auto;
         margin-top: 40px;
     }
 
